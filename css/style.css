@@ -1,0 +1,424 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Font;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Courgette-Regular.ttf);
+}
+@font-face {
+    font-family: Font;
+    src: url(../font/Poppins-Light.ttf);
+}
+.pozadina{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-attachment: fixed;
+}
+.pozadina-menu{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/menu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+}
+header{
+    border-top: 5px solid #ff0000;
+}
+header a{
+    color: #fff;
+}
+.centriranje-okvir{
+    width: 65%;
+    margin: 0px auto;
+}
+
+#logo{
+    width: 15%;
+    margin-right: 50px;
+
+}
+#logo a{
+    color: #fff;
+}
+#logo h1{
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 15px;
+}
+#logo a h4{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#logo-footer{
+    width: 15%;
+    padding-top: 30px;
+
+}
+#logo-footer a{
+    color: #fff;
+}
+#logo-footer h1{
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 15px;
+}
+#logo-footer a h4{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#navigacija{
+
+    font-size: 20px;
+    margin-top: 25px;
+}
+#navigacija ul{
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#navigacija ul li{
+    display: inline;
+    margin:0px 10px;
+    padding:0px 40px;
+}
+#navigacija ul li a:hover{
+    color:red;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+#navigacija ul li a{
+    text-transform: uppercase;
+}
+.padding-top-bottom-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-sec{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    color:white;
+    width: 40%;
+    padding: 30px;
+    border-radius: 15px;
+    animation:fadeIn 2s;
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.main-sec h2{
+    font-family: myFirstFont;
+    font-weight: 100;
+}
+.main-sec h1{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.menu-btn{
+    text-align: center;
+    animation:fadeIn 2s;
+}
+.menu-btn a{
+    margin: 40px 0;
+    background-color: #fff;
+    width: 6%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+.menu-btn a{
+    color: #ff0000;
+}
+.menu-btn a:hover{
+    background-color: red;
+    transition: 0.4s;
+    color: #fff;
+}
+
+
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.end-footer-sec{
+    display: flex;
+   justify-content: space-between;
+}
+.bg1{
+    position: relative;
+    bottom: 0;
+    background-color: #222;
+    color: #fff;
+}
+.end-footer{
+    position: relative;
+    bottom: 0;
+    padding-bottom: 30px;
+    background-color: #000;
+}
+.footer-gallery{
+
+    padding-top: 50px;
+    padding-bottom: 92px;
+
+}
+.footer-gallery h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.row1 img,.row2 img,.row3 img{
+    width: 100px;
+
+}
+.row1 img:hover,.row2 img:hover,.row3 img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+.contact{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.contact ul li{
+    margin-bottom: 10px;
+    color: #818181;
+}
+.end-footer-menu{
+    margin-right: 15px;
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.end-footer-menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.end-footer-menu ul li a{
+    color: #fff;
+}
+            /*Menu page*/
+
+.headline{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 15px;
+    animation:fadeIn 2s;
+}
+.menu-sec{
+    background-color: #ffffea;
+    padding: 100px 0;
+}
+.menu-sec h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu-sec ul h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.menu-sec ul li{
+    font-size: 20px;
+}
+.item-sec{
+    display: flex;
+    justify-content: space-between;
+    animation: jump 2s;
+    position: relative;
+}
+@keyframes jump{
+    0%{left:-1500px;}
+    100%{left: 0px;}
+}
+.item-sec ul{
+    border: 1px dotted #000;
+    padding: 20px;
+}
+.item-sec ul li{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.burger-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../images/burger.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+}
+.burger-bg h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: myFirstFont;
+}
+
+.sandwich-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../images/sandwich.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+}
+.sandwich-bg h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: myFirstFont;
+}
+
+.mexican-food-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../images/mexican.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+}
+.mexican-food-bg h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: myFirstFont;
+}
+.dessert-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../images/dessert.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+}
+.dessert-bg h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: myFirstFont;
+}
+.coolers{
+    display: flex;
+    justify-content: center;
+}
+.coolers ul{
+    border: 1px dotted #000;
+    padding: 20px;
+    margin-top: 20px;
+}
+.coolers ul li{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+                /* ABOUT-ME */
+.about-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    justify-content: flex-start;
+    padding: 200px 50px;
+    margin: 200px 0;
+}
+.my-pic img{
+    height: 500px;
+    margin-right: 100px;
+}
+.ime{
+    border-bottom:2px solid #000 ;
+    font-size: 30px;
+}
+.about-me p{
+    
+    word-wrap: break-word;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+                /*RESERVATION page*/
+
+label{
+    color: #fff;
+}
+table{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.6);
+    margin: 150px auto;
+    width: 70%;
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+table td{
+    border: 1px solid rgba(0,0,0,0);
+}
+table th{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 100%;
+    height: 25px;
+}
+.menu-main-sec{
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+.btn{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
