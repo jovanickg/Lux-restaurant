@@ -1,16 +1,16 @@
 <rss version="2.0">
     <channel>
         <title>Lux-restaurant</title>
-        <link></link>
+        <link>https://jovanickg.github.io/Lux-restaurant/index.html</link>
         <description>Welcome To Lux</description>
         <item>
             <title>Lux-menu</title>
-            <link></link>
+            <link>https://jovanickg.github.io/Lux-restaurant/menu.html</link>
             <description>Enjoy in some of our best dishes on our menu</description>
         </item>
         <item>
             <title>Reservation</title>
-            <link></link>
+            <link>https://jovanickg.github.io/Lux-restaurant/reservation.html</link>
             <description>Book your table</description>
         </item>
     </channel>
